@@ -1,0 +1,37 @@
+
+
+p{
+  z-index:2;
+ 
+  width:50px;
+  height:50px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  border:2px solid black;
+  padding:10px;
+  background-color:yellow;
+   box-shadow: 14px 14px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button{
+  background-color:pink;
+  height:100%;
+  width:100%;
+}
+.myname{
+  position:absolute;
+  top:50%;
+  left:0%;
+
+  
+}
+
+.opaqueMyname{
+  position:absolute;
+  top:50%;
+  left:0%;
+  opacity:0.5;
+  z-index:-1;
+  
+}
