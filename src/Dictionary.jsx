@@ -6,7 +6,7 @@ const Dictionary = () => {
     { word: "Component", meaning: "A reusable building block in React." },
     { word: "State", meaning: "An object that stores data for a component." }
   ]);
-  const [searchTerm, setSearchTerm] = useState(" ");
+  const [searchTerm, setSearchTerm] = useState("");
   const [meaning, setMeaning] = useState('');
 
   const handleSearch = () => {
