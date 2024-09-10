@@ -10,6 +10,10 @@ const Dictionary = () => {
   const [meaning, setMeaning] = useState('');
 
   const handleSearch = () => {
+    if (searchTerm.trim() === "") {
+      setMeaning("Word not found in the dictionary.");
+      return;
+    }
     const filteredDictionary = dictionary.filter(item =>
       item.word.toLowerCase().includes(searchTerm.toLowerCase())
     );
